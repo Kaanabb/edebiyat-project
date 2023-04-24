@@ -1,3 +1,96 @@
+/* Colors */
+
+.App {
+  /* background-color: #F7F7F7; */
+  background-color: rgb(33, 30, 30);
+
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#shortsum{
+  margin-bottom: 20px;
+}
+img .diag{
+  display: flex;
+  background-size: contain;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 800px;
+  max-height: 600px;
+}
+
+p {
+  color: white;
+}
+
+#mains {
+  /* background-color: aqua; */
+  color: white;
+  grid-gap: 10px;
+}
+
+#cardEser {
+  background-color: rgb(255, 243, 230);
+  color: white;
+}
+
+#cardWriter {
+  /* background-color: greenyellow; */
+  background-color: rgb(255, 243, 230);
+  color: white;
+}
+.row{
+  /* width: 90%; */
+  color: white;
+}
+
+li .list-group-item{
+  color: black;
+  background-color: rgb(255, 243, 230);
+}
+
+
+
+h5{
+  color: black;
+}
+
+/* Margins */
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.2rem;
+}
+
+#sumwriter {
+  margin: 5%;
+}
+
+/* Fonts */
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+}
+h1{
+  color: white;
+}
+p {
+  display: block;
+
+}
+
+/* Logo Styles */
+
 .App {
   text-align: center;
 }
@@ -11,21 +104,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
